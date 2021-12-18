@@ -20,7 +20,7 @@ void CHARACTER::ClickWonExchange(const bool IsWon)
 
 	if (thecore_pulse() - GetLastClickWonTime() < passes_per_sec * 1)
 	{
-		ChatPacket(1, "Please wait 2 second");
+		ChatPacket(1, "Please wait 1 sec");
 		return;
 	}
 
